@@ -28,9 +28,6 @@ header{
 aside{
     background-color: aqua;
 }
-nav{
-
-}
 ul{
 /*removes bullet points from unordered lists.*/
 list-style: none;
