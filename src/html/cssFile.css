@@ -1,8 +1,8 @@
 body{
     background: greenyellow;
     font: 14px/20px Ariel, San-Serif;
-    color: #555;
-    margin: 0;
+    margin: 0; /* margin 0 so that elements dont have dead white space
+                 around them */
 }
 
 h1{
@@ -12,7 +12,6 @@ h1{
     padding: 5% 0;
 }
 p{
-    padding: 1%;
     text-align: center;
 }
 
@@ -20,9 +19,9 @@ header{
     background-color: red;
     opacity: 0.50;
     top: 0;
-    left: 0;
+    left: 10%;
     text-align: center;
-    width: 100%;
+    width: 90%;
     height: 86px;
 }
 nav{
@@ -32,7 +31,7 @@ nav{
 
 }
 aside{
-    background-color: aqua;
+    background-color: greenyellow;
 }
 section{
     text-align: center;
@@ -46,17 +45,35 @@ li{
     menu items horizontal*/
     text-align: center;
      display: inline;
-    font-size: 200%;
+    font-size: 150%;
 }
 ol{
     text-align: center;
 }
 img{
-    text-align: center;
-    padding: 0px 400px 0px;
+    padding: 0px 400px 0px; /* i used this padding in order to push
+                             the image to the center since the text
+                              align didnt work. */
 }
 
-iframe {
-    text-align: center;
+#leftkant{
+    background-color: dodgerblue;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 90%;
+    right: 0;
+    z-index: -1;/* z-index is about stack elements, it basicly makes it so that
+                the color blue stays infront of the background color green;*/
 }
+#rightkant {
+    background-color: dodgerblue;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 90%;
+    z-index: -1;
+}
+
 
