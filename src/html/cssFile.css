@@ -1,5 +1,5 @@
 body{
-    background: whitesmoke;
+    background: greenyellow;
     font: 14px/20px Ariel, San-Serif;
     color: #555;
     margin: 0;
@@ -17,7 +17,7 @@ p{
 }
 
 header{
-    background-color: black;
+    background-color: red;
     opacity: 0.50;
     top: 0;
     left: 0;
@@ -27,6 +27,9 @@ header{
 }
 aside{
     background-color: aqua;
+}
+section{
+    text-align: center;
 }
 ul{
 /*removes bullet points from unordered lists.*/
