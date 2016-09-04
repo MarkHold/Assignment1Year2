@@ -25,6 +25,12 @@ header{
     width: 100%;
     height: 86px;
 }
+nav{
+        /* makes it so that the navigation link is a block,
+           no space between it and the top of the page. */
+    display: inline-block;
+
+}
 aside{
     background-color: aqua;
 }
@@ -36,7 +42,11 @@ ul{
 list-style: none;
 }
 li{
+    /*float: left with the display in block is one way to make the
+    menu items horizontal*/
     text-align: center;
+     display: inline;
+    font-size: 200%;
 }
 ol{
     text-align: center;
@@ -46,6 +56,7 @@ img{
     padding: 0px 400px 0px;
 }
 
-iframe{
+iframe {
     text-align: center;
 }
+
