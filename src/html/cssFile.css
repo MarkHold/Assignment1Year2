@@ -46,6 +46,10 @@ li{
     text-align: center;
      display: inline;
     font-size: 150%;
+    text-decoration: none;
+}
+a:hover{
+        background-color: black;
 }
 ol{
     text-align: center;
@@ -74,6 +78,13 @@ img{
     left: 0;
     right: 90%;
     z-index: -1;
+}
+
+#contact{
+    text-align: center;
+}
+#legend{
+    text-align: center;
 }
 
 
