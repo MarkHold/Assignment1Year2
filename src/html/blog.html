@@ -10,7 +10,7 @@
 <body>
 <div id="rightkant"></div>
 <div id="leftkant"></div>
-<header>
+
     <nav>
         <ul>
             <li><a href="index.html" class="current">Hemsida</a> </li>
@@ -19,34 +19,50 @@
             <li><a href="contact.html">contact</a> </li>
         </ul>
     </nav>
-</header>
 
-    <section>
-        <h1>Post1</h1>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
 
-    </section>
+    <article>
+        <h1>Robot.txt, what is it?</h1>
+        <p>Är en text fil som används så att sök motorerna inte kan bara gå in
+        och indexa allt I hemsidan. Filen måste heta exakt så <em>Robot.txt</em></p>
+        <p>Den skrivs på de här sättet:
+        <br>Use-agent: *
+        <br>Disallow: "directories"
+            <br>Allows: "uploads"
+            <br>Sitemap: http://.../map.xml</p>
+    </article>
 
-    <section>
-        <h1>Post2</h1>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
-        <p>So this post is gonna be about things...</p>
+    <article>
+        <h1>Human.txt, what is it?</h1>
+      <p>
+          Human.txt is something that exist so that the users can know the team behind the
+          building of the site. <br> man refererar till den i Head. Man kan också
+          skapa och lägga till knapp som länkar till den.
+          <br> den skrivs ut på det här sättet:
+          <br> Team: Names, site, twitter etc
+          <br> Thanks: names etc
+          <br> site>: info om sidan och när den blev uppdaterad sist.
+      </p>
 
-    </section>
+    </article>
+    <article>
+        <h1>Open Graph, Why to use it?</h1>
+        <p>Är en protocol som gör att man kan helt enkelt
+        dela med sig sin hemsida eller applikation på typ facebook osv.
+        man behöver 4 saker:
+        <br> title:
+        <br> img:
+        <br> type:
+        <br> url:
+        <br> och skrivs i Head.</p>
 
+    </article>
+    <article>
+        <h1>Seperation Of Concern</h1>
+        <p>SOC är ett koncept där man sepererar CSS, HTML och JS/JQuerry coden I olika filar,
+            <br> dvs man inte blandar ihop dom.
+        Detta är för att det ska bli lättare att läsa koden och hålla koll på var allt är.</p>
+    </article>
 
 </body>
 </html>

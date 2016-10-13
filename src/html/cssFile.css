@@ -15,7 +15,7 @@ p{
     text-align: center;
 }
 
-header{
+nav{
     background-color: red;
     opacity: 0.50;
     top: 0;
@@ -23,8 +23,7 @@ header{
     text-align: center;
     width: 90%;
     height: 86px;
-}
-nav{
+
         /* makes it so that the navigation link is a block,
            no space between it and the top of the page. */
     display: inline-block;
@@ -33,7 +32,7 @@ nav{
 aside{
     background-color: greenyellow;
 }
-section{
+article{
     text-align: center;
 }
 ul{
@@ -81,9 +80,6 @@ img{
 }
 
 #contact{
-    text-align: center;
-}
-#legend{
     text-align: center;
 }
 
